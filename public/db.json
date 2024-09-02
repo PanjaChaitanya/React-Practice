@@ -1,0 +1,42 @@
+{
+    "users" : [
+        {
+            "id" : 1,
+            "userid" : "chaitanya",
+            "email" : "chaitanya@gmail.com",
+            "password" : "chaithu123@#@"
+        },
+        {
+            "id" : 2,
+            "userid" : "venkata",
+            "email" : "venkata@gmail.com",
+            "password" : "venkata@1724"
+        },
+        {
+            "id" : 3,
+            "userid" : "satya",
+            "email" : "satya@gmail.com",
+            "password" : "satya@2000"
+        }
+    ],
+    "appointments" : [
+        {
+            "id" : 1,
+            "userid" : "chaitanya",
+            "title" : "friend birthday",
+            "date" : "17-june-2025"
+        },
+        {
+            "id" : 2,
+            "userid" : "venkata",
+            "title" : "attend to the interview",
+            "date" : "12-may-2025"
+        },
+        {
+            "id" : 3,
+            "userid" : "satya",
+            "title" : "go to hyd trip",
+            "date" : "08-march-2025"
+        }
+    ]
+}
