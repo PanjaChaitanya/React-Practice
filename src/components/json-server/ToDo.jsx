@@ -2,11 +2,11 @@ import { useEffect, useState } from "react";
 
 
 function ToDo() {
+  
     const [appointments, setAppointments] = useState([])
 
     useEffect(() => {
-     
-         fetch("http://localhost:8080/appointments")
+      fetch("http://localhost:8080/appointments")
       .then((res) => res.json())
       .then((data) => setAppointments(data))
       .catch((error) => console.error("Error fetching data:", error));
